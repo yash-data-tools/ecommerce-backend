@@ -24,11 +24,7 @@ router.get('/', async (req, res) => {
   } else {
     products = await Product.findAll();
   }
-  const BASE_URL = "https://ecommerce-backend-4e2u.onrender.com";
-  products = products.map(product =>({
-    ...product,
-    image: `${BASE_URL}/${product.image}`
-  }));
+
   res.json(products);
 });
 
