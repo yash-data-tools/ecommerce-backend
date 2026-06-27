@@ -1,17 +1,57 @@
-## Intro to the Project
-This is the backend for the [ecommerce-project](https://github.com/SuperSimpleDev/ecommerce-project).
-- 95% of the code was generated with AI.
+# Ecommerce Backend
 
-## Video Tutorials
-**Part 1 - Create the Backend:** https://youtu.be/vBprybSmJs8
+Backend API for the Ecommerce Project built with Node.js and Express.
 
-## Set up this backend
-1. Make sure you have NodeJS installed (version 22+). If not, [click here to install](https://nodejs.org/).
-2. Download this code by clicking the green `Code` button (in the top-right) > Click `Download Zip`.
-3. Unzip the code. On Windows, right-click the zip file > `Extract All`. On Mac, double-click the zip file.
-4. Open this code in VSCode.
-5. At the top menu of VSCode, click `Terminal` > `New Terminal`.
-6. In the Terminal, run `npm install`, and run `npm run dev`.
+## Features
 
-## Troubleshooting
-If you run into issues, see the [troubleshooting steps](troubleshooting.md).
+- REST API built with Express.js
+- Products API
+- Shopping Cart API
+- Orders API
+- Payment Summary API
+- Delivery Options API
+- Serves static images
+- CORS enabled for frontend deployment
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- JavaScript
+
+## Frontend
+
+The frontend is deployed separately on Vercel:
+
+https://yks-ecommerce-project.vercel.app
+
+## API
+
+Example:
+
+GET /api/products
+
+GET /api/cart-items
+
+POST /api/cart-items
+
+PUT /api/cart-items/:id
+
+DELETE /api/cart-items/:id
+
+## Run Locally
+
+```bash
+npm install
+npm start
+```
+
+or
+
+```bash
+npm run dev
+```
+
+## Author
+
+Yash Kumar Shaw
