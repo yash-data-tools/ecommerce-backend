@@ -23,7 +23,7 @@ Backend API for the Ecommerce Project built with Node.js and Express.
 
 The frontend is deployed separately on Vercel:
 
-https://yks-ecommerce-project.vercel.app
+[View Website](https://yks-ecommerce-project.vercel.app)
 
 ## API
 
